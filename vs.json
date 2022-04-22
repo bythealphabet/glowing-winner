@@ -1,0 +1,124 @@
+{
+  "editor.fontSize": 13,
+  "editor.minimap.enabled": true,
+  "editor.autoClosingBrackets": "always",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.matchBrackets": "near",
+  "editor.selectionHighlight": true,
+  "editor.occurrencesHighlight": false,
+  "editor.renderLineHighlight": "none",
+  "editor.formatOnPaste": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.formatOnType": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "workbench.sideBar.location": "left",
+  "workbench.settings.editor": "json",
+  "workbench.colorTheme": "Monokai",
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.colorCustomizations": {
+    "[Monokai Pro (Filter Machine)]": {
+      "activityBarBadge.background": "#057180",
+      "activityBar.activeBorder": "#00BCD4",
+      "list.activeSelectionForeground": "#00BCD4",
+      "list.inactiveSelectionForeground": "#00BCD4",
+      "list.highlightForeground": "#00BCD4",
+      "scrollbarSlider.activeBackground": "#00BCD450",
+      "editorSuggestWidget.highlightForeground": "#00BCD4",
+      "textLink.foreground": "#00BCD4",
+      "progressBar.background": "#00BCD4",
+      "pickerGroup.foreground": "#00BCD4",
+      "tab.activeBorder": "#00BCD4",
+      "notificationLink.foreground": "#00BCD4",
+      "editorWidget.resizeBorder": "#00BCD4",
+      "editorWidget.border": "#00BCD4",
+      "settings.modifiedItemIndicator": "#00BCD4",
+      "settings.headerForeground": "#00BCD4",
+      "panelTitle.activeBorder": "#00BCD4",
+      "breadcrumb.activeSelectionForeground": "#00BCD4",
+      "menu.selectionForeground": "#00BCD4",
+      "menubar.selectionForeground": "#00BCD4",
+      "editor.findMatchBorder": "#00BCD4",
+      "selection.background": "#00BCD440",
+      "statusBarItem.remoteBackground": "#00BCD4"
+    }
+  },
+
+  "terminal.integrated.fontSize": 14,
+  "debug.console.fontSize": 15,
+
+  "explorer.openEditors.visible": 0,
+  "window.zoomLevel": 1,
+  "[Log]": {
+    "editor.fontSize": 14
+  },
+
+  "prettier.resolveGlobalModules": true,
+  "prettier.requireConfig": true,
+
+  "breadcrumbs.enabled": false,
+  "npm.scriptExplorerAction": "open",
+  // "javascript.implicitProjectConfig.checkJs": false,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+
+  "files.hotExit": "off",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "colorize.languages": [
+    "javascriptreact",
+    "javascript",
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "postcss",
+    "sss",
+    "stylus",
+    "xml",
+    "svg"
+  ],
+  "colorize.colorized_colors": ["BROWSERS_COLORS", "HEXA", "RGB", "HSL"],
+  "material-icon-theme.opacity": 0.7,
+
+  "material-icon-theme.folders.theme": "classic",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.suggest.paths": false, 
+  "javascript.suggest.paths": false, 
+  "editor.lineNumbers": "relative",
+  "quokka.automaticRestart": true,
+  
+}
